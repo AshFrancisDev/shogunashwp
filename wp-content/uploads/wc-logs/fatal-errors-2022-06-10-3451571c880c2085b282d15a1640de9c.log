@@ -1,0 +1,172 @@
+2022-06-10T08:10:03+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "misha_add_to_cart_fragment" not found or invalid function name in E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 E:\xampp\htdocs\shogunashwp\wp-includes\plugin.php(191): WP_Hook->apply_filters(Array, Array)
+#1 E:\xampp\htdocs\shogunashwp\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(191): apply_filters('woocommerce_add...', Array)
+#2 E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php(307): WC_AJAX::get_refreshed_fragments('')
+#3 E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 E:\xampp\htdocs\shogunashwp\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#5 E:\xampp\htdocs\shogunashwp\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(90): do_action('wc_ajax_get_ref...')
+#6 E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php(307): WC_AJAX::do_wc_ajax('')
+#7 E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(false, Array)
+#8 E:\xampp\htdocs\shogunashwp\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#9 E:\xampp\htdocs\shogunashwp\wp-includes\template-loader.php(13): do_action('template_redire...')
+#10 E:\xampp\htdocs\shogunashwp\wp-blog-header.php(19): require_once('E:\\xampp\\htdocs...')
+#11 E:\xampp\htdocs\shogunashwp\index.php(17): require('E:\\xampp\\htdocs...')
+#12 {main}
+  thrown in E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php on line 307
+
+2022-06-10T08:11:56+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "misha_add_to_cart_fragment" not found or invalid function name in E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 E:\xampp\htdocs\shogunashwp\wp-includes\plugin.php(191): WP_Hook->apply_filters(Array, Array)
+#1 E:\xampp\htdocs\shogunashwp\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(191): apply_filters('woocommerce_add...', Array)
+#2 E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php(307): WC_AJAX::get_refreshed_fragments('')
+#3 E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 E:\xampp\htdocs\shogunashwp\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#5 E:\xampp\htdocs\shogunashwp\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(90): do_action('wc_ajax_get_ref...')
+#6 E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php(307): WC_AJAX::do_wc_ajax('')
+#7 E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(false, Array)
+#8 E:\xampp\htdocs\shogunashwp\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#9 E:\xampp\htdocs\shogunashwp\wp-includes\template-loader.php(13): do_action('template_redire...')
+#10 E:\xampp\htdocs\shogunashwp\wp-blog-header.php(19): require_once('E:\\xampp\\htdocs...')
+#11 E:\xampp\htdocs\shogunashwp\index.php(17): require('E:\\xampp\\htdocs...')
+#12 {main}
+  thrown in E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php on line 307
+
+2022-06-10T08:12:43+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "misha_add_to_cart_fragment" not found or invalid function name in E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 E:\xampp\htdocs\shogunashwp\wp-includes\plugin.php(191): WP_Hook->apply_filters(Array, Array)
+#1 E:\xampp\htdocs\shogunashwp\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(191): apply_filters('woocommerce_add...', Array)
+#2 E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php(307): WC_AJAX::get_refreshed_fragments('')
+#3 E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 E:\xampp\htdocs\shogunashwp\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#5 E:\xampp\htdocs\shogunashwp\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(90): do_action('wc_ajax_get_ref...')
+#6 E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php(307): WC_AJAX::do_wc_ajax('')
+#7 E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(false, Array)
+#8 E:\xampp\htdocs\shogunashwp\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#9 E:\xampp\htdocs\shogunashwp\wp-includes\template-loader.php(13): do_action('template_redire...')
+#10 E:\xampp\htdocs\shogunashwp\wp-blog-header.php(19): require_once('E:\\xampp\\htdocs...')
+#11 E:\xampp\htdocs\shogunashwp\index.php(17): require('E:\\xampp\\htdocs...')
+#12 {main}
+  thrown in E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php on line 307
+
+2022-06-10T08:13:31+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "misha_add_to_cart_fragment" not found or invalid function name in E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 E:\xampp\htdocs\shogunashwp\wp-includes\plugin.php(191): WP_Hook->apply_filters(Array, Array)
+#1 E:\xampp\htdocs\shogunashwp\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(191): apply_filters('woocommerce_add...', Array)
+#2 E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php(307): WC_AJAX::get_refreshed_fragments('')
+#3 E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 E:\xampp\htdocs\shogunashwp\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#5 E:\xampp\htdocs\shogunashwp\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(90): do_action('wc_ajax_get_ref...')
+#6 E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php(307): WC_AJAX::do_wc_ajax('')
+#7 E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(false, Array)
+#8 E:\xampp\htdocs\shogunashwp\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#9 E:\xampp\htdocs\shogunashwp\wp-includes\template-loader.php(13): do_action('template_redire...')
+#10 E:\xampp\htdocs\shogunashwp\wp-blog-header.php(19): require_once('E:\\xampp\\htdocs...')
+#11 E:\xampp\htdocs\shogunashwp\index.php(17): require('E:\\xampp\\htdocs...')
+#12 {main}
+  thrown in E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php on line 307
+
+2022-06-10T10:03:11+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "misha_add_to_cart_fragment" not found or invalid function name in E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 E:\xampp\htdocs\shogunashwp\wp-includes\plugin.php(191): WP_Hook->apply_filters(Array, Array)
+#1 E:\xampp\htdocs\shogunashwp\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(191): apply_filters('woocommerce_add...', Array)
+#2 E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php(307): WC_AJAX::get_refreshed_fragments('')
+#3 E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 E:\xampp\htdocs\shogunashwp\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#5 E:\xampp\htdocs\shogunashwp\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(90): do_action('wc_ajax_get_ref...')
+#6 E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php(307): WC_AJAX::do_wc_ajax('')
+#7 E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(false, Array)
+#8 E:\xampp\htdocs\shogunashwp\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#9 E:\xampp\htdocs\shogunashwp\wp-includes\template-loader.php(13): do_action('template_redire...')
+#10 E:\xampp\htdocs\shogunashwp\wp-blog-header.php(19): require_once('E:\\xampp\\htdocs...')
+#11 E:\xampp\htdocs\shogunashwp\index.php(17): require('E:\\xampp\\htdocs...')
+#12 {main}
+  thrown in E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php on line 307
+
+2022-06-10T10:03:57+00:00 CRITICAL syntax error, unexpected token "echo" in E:\xampp\htdocs\shogunashwp\wp-content\themes\blankslate\single.php on line 16
+
+2022-06-10T10:05:43+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "misha_add_to_cart_fragment" not found or invalid function name in E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 E:\xampp\htdocs\shogunashwp\wp-includes\plugin.php(191): WP_Hook->apply_filters(Array, Array)
+#1 E:\xampp\htdocs\shogunashwp\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(191): apply_filters('woocommerce_add...', Array)
+#2 E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php(307): WC_AJAX::get_refreshed_fragments('')
+#3 E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 E:\xampp\htdocs\shogunashwp\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#5 E:\xampp\htdocs\shogunashwp\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(90): do_action('wc_ajax_get_ref...')
+#6 E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php(307): WC_AJAX::do_wc_ajax('')
+#7 E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(false, Array)
+#8 E:\xampp\htdocs\shogunashwp\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#9 E:\xampp\htdocs\shogunashwp\wp-includes\template-loader.php(13): do_action('template_redire...')
+#10 E:\xampp\htdocs\shogunashwp\wp-blog-header.php(19): require_once('E:\\xampp\\htdocs...')
+#11 E:\xampp\htdocs\shogunashwp\index.php(17): require('E:\\xampp\\htdocs...')
+#12 {main}
+  thrown in E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php on line 307
+
+2022-06-10T10:10:13+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "misha_add_to_cart_fragment" not found or invalid function name in E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 E:\xampp\htdocs\shogunashwp\wp-includes\plugin.php(191): WP_Hook->apply_filters(Array, Array)
+#1 E:\xampp\htdocs\shogunashwp\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(191): apply_filters('woocommerce_add...', Array)
+#2 E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php(307): WC_AJAX::get_refreshed_fragments('')
+#3 E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 E:\xampp\htdocs\shogunashwp\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#5 E:\xampp\htdocs\shogunashwp\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(90): do_action('wc_ajax_get_ref...')
+#6 E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php(307): WC_AJAX::do_wc_ajax('')
+#7 E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(false, Array)
+#8 E:\xampp\htdocs\shogunashwp\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#9 E:\xampp\htdocs\shogunashwp\wp-includes\template-loader.php(13): do_action('template_redire...')
+#10 E:\xampp\htdocs\shogunashwp\wp-blog-header.php(19): require_once('E:\\xampp\\htdocs...')
+#11 E:\xampp\htdocs\shogunashwp\index.php(17): require('E:\\xampp\\htdocs...')
+#12 {main}
+  thrown in E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php on line 307
+
+2022-06-10T11:04:54+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "misha_add_to_cart_fragment" not found or invalid function name in E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 E:\xampp\htdocs\shogunashwp\wp-includes\plugin.php(191): WP_Hook->apply_filters(Array, Array)
+#1 E:\xampp\htdocs\shogunashwp\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(191): apply_filters('woocommerce_add...', Array)
+#2 E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php(307): WC_AJAX::get_refreshed_fragments('')
+#3 E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 E:\xampp\htdocs\shogunashwp\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#5 E:\xampp\htdocs\shogunashwp\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(90): do_action('wc_ajax_get_ref...')
+#6 E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php(307): WC_AJAX::do_wc_ajax('')
+#7 E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(false, Array)
+#8 E:\xampp\htdocs\shogunashwp\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#9 E:\xampp\htdocs\shogunashwp\wp-includes\template-loader.php(13): do_action('template_redire...')
+#10 E:\xampp\htdocs\shogunashwp\wp-blog-header.php(19): require_once('E:\\xampp\\htdocs...')
+#11 E:\xampp\htdocs\shogunashwp\index.php(17): require('E:\\xampp\\htdocs...')
+#12 {main}
+  thrown in E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php on line 307
+
+2022-06-10T16:11:09+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "misha_add_to_cart_fragment" not found or invalid function name in E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 E:\xampp\htdocs\shogunashwp\wp-includes\plugin.php(191): WP_Hook->apply_filters(Array, Array)
+#1 E:\xampp\htdocs\shogunashwp\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(191): apply_filters('woocommerce_add...', Array)
+#2 E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php(307): WC_AJAX::get_refreshed_fragments('')
+#3 E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 E:\xampp\htdocs\shogunashwp\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#5 E:\xampp\htdocs\shogunashwp\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(90): do_action('wc_ajax_get_ref...')
+#6 E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php(307): WC_AJAX::do_wc_ajax('')
+#7 E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(false, Array)
+#8 E:\xampp\htdocs\shogunashwp\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#9 E:\xampp\htdocs\shogunashwp\wp-includes\template-loader.php(13): do_action('template_redire...')
+#10 E:\xampp\htdocs\shogunashwp\wp-blog-header.php(19): require_once('E:\\xampp\\htdocs...')
+#11 E:\xampp\htdocs\shogunashwp\index.php(17): require('E:\\xampp\\htdocs...')
+#12 {main}
+  thrown in E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php on line 307
+
+2022-06-10T16:12:11+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "misha_add_to_cart_fragment" not found or invalid function name in E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 E:\xampp\htdocs\shogunashwp\wp-includes\plugin.php(191): WP_Hook->apply_filters(Array, Array)
+#1 E:\xampp\htdocs\shogunashwp\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(191): apply_filters('woocommerce_add...', Array)
+#2 E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php(307): WC_AJAX::get_refreshed_fragments('')
+#3 E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 E:\xampp\htdocs\shogunashwp\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#5 E:\xampp\htdocs\shogunashwp\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(90): do_action('wc_ajax_get_ref...')
+#6 E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php(307): WC_AJAX::do_wc_ajax('')
+#7 E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(false, Array)
+#8 E:\xampp\htdocs\shogunashwp\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#9 E:\xampp\htdocs\shogunashwp\wp-includes\template-loader.php(13): do_action('template_redire...')
+#10 E:\xampp\htdocs\shogunashwp\wp-blog-header.php(19): require_once('E:\\xampp\\htdocs...')
+#11 E:\xampp\htdocs\shogunashwp\index.php(17): require('E:\\xampp\\htdocs...')
+#12 {main}
+  thrown in E:\xampp\htdocs\shogunashwp\wp-includes\class-wp-hook.php on line 307
+

@@ -1,0 +1,106 @@
+[
+    {
+        "key": "group_62a301f59e51b",
+        "title": "Review Meta",
+        "fields": [
+            {
+                "key": "field_62a312e023c0f",
+                "label": "Review Type",
+                "name": "review_type",
+                "type": "select",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "Book": "Book",
+                    "Course": "Course",
+                    "CreativeWorkSeason": "CreativeWorkSeason",
+                    "CreativeWorkSeries": "CreativeWorkSeries",
+                    "Episode": "Episode",
+                    "Event": "Event",
+                    "Game": "Game",
+                    "HowTo": "HowTo",
+                    "LocalBusiness": "LocalBusiness",
+                    "MediaObject": "MediaObject",
+                    "Movie": "Movie",
+                    "MusicPlaylist": "MusicPlaylist",
+                    "MusicRecording": "MusicRecording",
+                    "Organization": "Organization",
+                    "Product": "Product",
+                    "Recipe": "Recipe",
+                    "SoftwareApplication": "SoftwareApplication"
+                },
+                "default_value": false,
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "ajax": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_62a302d723c0e",
+                "label": "Review Score",
+                "name": "review_score",
+                "type": "number",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "min": 0,
+                "max": 5,
+                "step": "0.1"
+            },
+            {
+                "key": "field_62a3141823c10",
+                "label": "Teaser",
+                "name": "teaser",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_category",
+                    "operator": "==",
+                    "value": "category:reviews"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    }
+]
