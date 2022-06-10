@@ -1,0 +1,416 @@
+/* Mobile first queries */
+/* Fonts */
+h1, h2, h3, h4, h5, h6, p, li {
+  font-family: Calibri, "Trebuchet MS", sans-serif;
+}
+
+p {
+  font-size: 13pt;
+}
+
+h1 {
+  font-weight: 600;
+  text-shadow: 1px 1px 5px #222;
+}
+
+h2 {
+  font-style: italic;
+}
+
+.hero h2 {
+  font-size: 20pt;
+}
+
+a {
+  text-decoration: underline;
+  font-weight: 600;
+  color: inherit !important;
+}
+
+/* Core Elements */
+body {
+  margin: 0;
+  background-image: url("./assets/images/bg.png");
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  width: 100%;
+}
+
+#container {
+  min-height: 50vh;
+}
+
+#container .section:first-of-type {
+  padding-top: 100px;
+}
+
+#wrapper {
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+#footer {
+  text-align: center;
+  background-color: #aa0000;
+  color: whitesmoke;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  -ms-flex-item-align: end !important;
+      align-self: flex-end !important;
+  width: 100%;
+}
+
+#footer .button, #footer button {
+  background-color: transparent !important;
+  border-radius: 4px !important;
+  border: 1px solid #bbb !important;
+  font-family: Calibri, "Trebuchet MS", sans-serif !important;
+  font-size: 15px !important;
+}
+
+.section {
+  padding: 15px 0;
+}
+
+.menu-toggle {
+  background-color: #aa0000;
+  color: white !important;
+  border-radius: 50%;
+  height: 75px;
+  width: 75px;
+  text-align: center;
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  padding: 10px;
+}
+
+.menu-toggle svg {
+  stroke: white !important;
+}
+
+.tournament {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tournament .columns {
+  border: 1px solid lightgrey;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.tournament a {
+  text-transform: none;
+  color: initial;
+}
+
+.tournament .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tournament .logo img {
+  max-width: 100%;
+}
+
+/* Modifiers*/
+.cta {
+  background-color: #aa0000;
+  color: whitesmoke;
+  text-align: center;
+  padding: 30px;
+}
+
+.dayoff p {
+  display: none;
+}
+
+.full-height {
+  min-height: 100vh;
+}
+
+.half-height {
+  min-height: 50vh;
+}
+
+/* --- */
+#content-types {
+  text-align: center;
+}
+
+#brands {
+  text-align: center;
+}
+
+#brands img {
+  max-width: 100%;
+  height: 50px;
+}
+
+#home-splash, .hero {
+  background-image: url("./assets/images/shogun-ash-grimace.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: whitesmoke !important;
+}
+
+#home-splash.upc, .hero.upc {
+  background-image: url("/assets/images/upc-bg.png");
+  background-position: left;
+}
+
+#home-splash .social-links, .hero .social-links {
+  position: absolute;
+  bottom: 25px;
+}
+
+#home-splash .social-links a, .hero .social-links a {
+  color: whitesmoke;
+}
+
+.hero {
+  background-image: url("./assets/images/shogun-ash-grimace-dark.png");
+  padding-bottom: 150px;
+}
+
+.hero .social-links {
+  margin-bottom: -150px;
+}
+
+/* TWITCH */
+.twitch .twitch-video {
+  padding-top: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.twitch .twitch-video iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+
+.twitch .twitch-chat {
+  height: 400px;
+}
+
+.twitch .twitch-chat iframe {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-width: 850px) {
+  .twitch {
+    position: relative;
+  }
+  .twitch .twitch-video {
+    width: 75%;
+    padding-top: 42.1875%;
+  }
+  .twitch .twitch-chat {
+    width: 25%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+/* IMAGERY */
+img {
+  max-width: 100%;
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+  #header {
+    padding: 5px;
+    background: #aa0000;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    position: fixed;
+    width: 100vw;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    z-index: 9;
+  }
+  #header #branding {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 5px 20px;
+  }
+  #header #site-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  #header img {
+    height: 30px;
+    width: auto;
+  }
+  #header svg {
+    height: 30px;
+    width: auto;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    fill: white;
+  }
+  #header span {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  #header #menu {
+    display: none;
+  }
+  #header #menu .menu {
+    min-width: 200px;
+    background-color: #aa0000;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+    margin-bottom: 0;
+    padding-right: 30px;
+  }
+  #header #menu .menu .menu-img {
+    -webkit-filter: opacity(0.5);
+            filter: opacity(0.5);
+    position: fixed;
+    display: none;
+  }
+  #header #menu .menu ul {
+    display: inherit;
+  }
+  #header #menu .menu li {
+    list-style: none !important;
+    font-style: italic;
+    padding: 5px 10px;
+    margin-bottom: 0;
+  }
+  #header #menu .menu li a {
+    text-decoration: none !important;
+  }
+  #header #menu .menu li.close {
+    text-align: right;
+    cursor: pointer;
+  }
+  /* FORMS */
+  .wpcf7 input, .wpcf7 select, .wpcf7 textarea {
+    width: 100%;
+    border-bottom: 1px solid gray;
+  }
+}
+
+.woocommerce-product-gallery__image {
+  margin-bottom: 10px;
+}
+
+.widget-area > ul {
+  list-style: none;
+}
+
+/* Larger than phablet */
+/* Larger than tablet */
+/* Larger than desktop */
+@media (min-width: 1000px) {
+  #header {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #header #branding {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  #header #menutoggle {
+    display: none;
+  }
+  #header #menu {
+    display: unset;
+  }
+  #header #menu .menu {
+    min-width: 200px;
+    background-color: #aa0000;
+    color: white;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+    margin-bottom: 0;
+    padding-right: 30px;
+  }
+  #header #menu .menu .menu-img {
+    -webkit-filter: opacity(0.5);
+            filter: opacity(0.5);
+    position: fixed;
+    display: none;
+  }
+  #header #menu .menu li {
+    list-style: none !important;
+    font-style: italic;
+    padding: 5px 10px;
+    margin-bottom: 0;
+  }
+  #header #menu .menu li a {
+    text-decoration: none !important;
+  }
+  #header #menu .menu li.close {
+    text-align: right;
+    cursor: pointer;
+  }
+}
+
+/* Larger than Desktop HD */
+/*# sourceMappingURL=style.css.map */
