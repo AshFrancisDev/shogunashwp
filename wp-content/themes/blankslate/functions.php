@@ -64,6 +64,8 @@ dClass("opera");
         $('#menu').toggle(500);
     });
     $(".basket a").replaceWith( '<a href="'+'<?php echo wc_get_cart_url() ?>'+'" class="sho-cart">Basket ('+'<?php echo WC()->cart->get_cart_contents_count() ?>)</a>' );
+
+    $('.patreon-text-over-button a').text("Shogun Ash's Patreon");
     
 });
 
