@@ -13,13 +13,4 @@
 </div>
 <?php wp_footer(); ?>
 </body>
-<script>
-    (function ($) {
-        "use strict";
-        $(document).ready(function () {
-            $('.patreon-text-over-button a')text("Shogun Ash's Patreon");
-        
-        });
-    }(jQuery));
-</script>
 </html>
